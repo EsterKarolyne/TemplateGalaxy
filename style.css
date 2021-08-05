@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+/*font-family: 'Josefin Sans', sans-serif;*/
+
+/* cores: #E13E64 #992F5F #B53863 #761685 #DB7C66  #ED4D84 #841A8C */
+
+@font-face {
+    font-family: Galaxy Sprinkle;
+    src: url(Galaxy\ Sprinkle.ttf);
+}
+
+body {
+    background-image: url('./assets/fundoestrelas.png');
+}
+
+/*header*/
+header {
+    background-color: rgba(255, 255, 255, 0.795);
+    width: 1000px;
+    height: 70px;
+    display: flex;
+    border-radius: 40px;
+    margin: auto;
+    align-items: center;
+}
+
+.header-alinhamento{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.titulo {
+    font-family: Galaxy Sprinkle;
+    margin-left: 20px;
+
+
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    margin-left: 300px;
+}
+
+.list-header {
+    margin: 20px 20px 20px 30px;
+    list-style: none;
+    font-weight: 100px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #841A8C;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+
+/*imagens*/
+
+.img-lua {
+    float: right;
+    margin-top: -250px;
+
+}
+
+.img-foguete {
+    height: 80px;
+    display: block;
+    margin-left: 40%;
+
+
+}
+
+
+.socialmidias {
+    width: 30px;
+    height: 40px;
+    margin-left: 20px;
+
+}
+
+.img-astronauta {
+    width: 300px;
+    height: 400px;
+    margin-top: -600px;
+    z-index: 20;
+
+}
+
+/*texto*/
+
+
+
+.texto-sobre {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.texto-sobre h1 {
+    color: white;
+    font-family: Galaxy Sprinkle;
+    font-size: 50px;
+
+}
+
+.texto-sobre p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    z-index: 999;
+}
+
+
+div:hover button{
+    background-color: #110958fa;
+    color: white;
+}
+
+.texto-sobre button {
+    width: 120px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+    
+    
+}
+
+.social-li {
+    text-align: left;
+    list-style: none;
+
+}
+
+.social-li-div {
+    display: flex;
+    border: 0 0 0 0;
+    margin-top: 250px;
+}
+
+
+
+footer {
+    background-color: #110958bb;
+    text-align: center;
+    width: 1400px;
+    height:33px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    
+
+}
